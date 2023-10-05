@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+.generator {
+    width: 1440px;
+    height: 780px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 926px;
+    padding-top: 194px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    margin-bottom: 27px;
+    color: #00519D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.password-box {
+    width: 688px;
+    height: 75px;
+    border: 1px solid #FF6700;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #ACACAC;
+    margin-bottom: 27px;
+}
+
+.generator-btn {
+    width: 370px;
+    height: 75px;
+    border-radius: 4px;
+    background: #FF6700;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.password-box::selection {
+    background-color: #daf0ed;
+}
+
+@media (max-width: 786px) {
+
+    .generator {
+        max-width: 390px;
+        max-height: 844px;
+    }
+
+    .title {
+        width: 338px;
+        height: 91px;
+        padding-top: 291px;
+        margin-bottom: 58px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: inherit;
+    }
+
+    .password-box {
+        height: 40px;
+        width: 326px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 41px;
+    }
+
+    .generator-btn {
+        width: 326px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+}
